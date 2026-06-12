@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1.0",
+  "artifact_type": "bucket_map",
+  "artifact_id": "project-12-demo",
+  "model": "example-llm-v1",
+  "prompt_version": "v1",
+  "bucket_count": 12,
+  "source_manifest": {
+    "source_id": "project-demo-items",
+    "source_name": "Project Artifact Demo Set",
+    "source_kind": "project_map",
+    "source_version": "demo-1"
+  },
+  "created_at": "2026-06-12T00:00:00Z",
+  "notes": "Illustrative project-domain example showing a higher-resolution alphabet.",
+  "buckets": [
+    {
+      "bucket_id": "B1",
+      "label": "Core Architecture",
+      "summary": "Top-level structure, boundaries, and long-lived design decisions.",
+      "anchor_items": [
+        { "value": "architecture-overview" },
+        { "value": "service-boundaries" }
+      ],
+      "assigned_items": [
+        { "value": "architecture-overview" },
+        { "value": "service-boundaries" },
+        { "value": "data-flow-map" }
+      ]
+    },
+    {
+      "bucket_id": "B2",
+      "label": "Runtime And Infrastructure",
+      "summary": "Deployment, hosting, environments, and infrastructure operations.",
+      "anchor_items": [
+        { "value": "deployment-config" },
+        { "value": "environment-variables" }
+      ],
+      "assigned_items": [
+        { "value": "deployment-config" },
+        { "value": "environment-variables" },
+        { "value": "container-setup" }
+      ]
+    },
+    {
+      "bucket_id": "B3",
+      "label": "API Surface",
+      "summary": "External interfaces, contracts, routes, and request-response definitions.",
+      "anchor_items": [
+        { "value": "route-schema" },
+        { "value": "api-contract" }
+      ],
+      "assigned_items": [
+        { "value": "route-schema" },
+        { "value": "api-contract" },
+        { "value": "webhook-handler" }
+      ]
+    },
+    {
+      "bucket_id": "B4",
+      "label": "Persistence And Data Models",
+      "summary": "Storage, schema definitions, migrations, and persistence behavior.",
+      "anchor_items": [
+        { "value": "database-schema" },
+        { "value": "migration-plan" }
+      ],
+      "assigned_items": [
+        { "value": "database-schema" },
+        { "value": "migration-plan" },
+        { "value": "entity-model" }
+      ]
+    },
+    {
+      "bucket_id": "B5",
+      "label": "Business Logic",
+      "summary": "Rules, orchestration, and domain-specific processing logic.",
+      "anchor_items": [
+        { "value": "pricing-rules" },
+        { "value": "workflow-engine" }
+      ],
+      "assigned_items": [
+        { "value": "pricing-rules" },
+        { "value": "workflow-engine" },
+        { "value": "eligibility-check" }
+      ]
+    },
+    {
+      "bucket_id": "B6",
+      "label": "User Experience",
+      "summary": "Interface behavior, navigation, interaction flow, and presentation concerns.",
+      "anchor_items": [
+        { "value": "dashboard-layout" },
+        { "value": "navigation-flow" }
+      ],
+      "assigned_items": [
+        { "value": "dashboard-layout" },
+        { "value": "navigation-flow" },
+        { "value": "form-logic" }
+      ]
+    },
+    {
+      "bucket_id": "B7",
+      "label": "Errors And Recovery",
+      "summary": "Failure modes, retry paths, alerts, and repair-oriented signals.",
+      "anchor_items": [
+        { "value": "error-codes" },
+        { "value": "retry-policy" }
+      ],
+      "assigned_items": [
+        { "value": "error-codes" },
+        { "value": "retry-policy" },
+        { "value": "incident-playbook" }
+      ]
+    },
+    {
+      "bucket_id": "B8",
+      "label": "Quality And Testing",
+      "summary": "Test design, verification, assertions, and quality controls.",
+      "anchor_items": [
+        { "value": "unit-tests" },
+        { "value": "integration-tests" }
+      ],
+      "assigned_items": [
+        { "value": "unit-tests" },
+        { "value": "integration-tests" },
+        { "value": "qa-checklist" }
+      ]
+    },
+    {
+      "bucket_id": "B9",
+      "label": "Security And Access",
+      "summary": "Permissions, secrets, trust boundaries, and security controls.",
+      "anchor_items": [
+        { "value": "auth-policy" },
+        { "value": "secret-rotation" }
+      ],
+      "assigned_items": [
+        { "value": "auth-policy" },
+        { "value": "secret-rotation" },
+        { "value": "permission-matrix" }
+      ]
+    },
+    {
+      "bucket_id": "B10",
+      "label": "Observability",
+      "summary": "Logs, metrics, tracing, and operational visibility.",
+      "anchor_items": [
+        { "value": "metrics-dashboard" },
+        { "value": "structured-logs" }
+      ],
+      "assigned_items": [
+        { "value": "metrics-dashboard" },
+        { "value": "structured-logs" },
+        { "value": "trace-sampling" }
+      ]
+    },
+    {
+      "bucket_id": "B11",
+      "label": "Planning And Coordination",
+      "summary": "Roadmaps, priorities, tickets, and execution planning artifacts.",
+      "anchor_items": [
+        { "value": "roadmap" },
+        { "value": "backlog" }
+      ],
+      "assigned_items": [
+        { "value": "roadmap" },
+        { "value": "backlog" },
+        { "value": "milestone-plan" }
+      ]
+    },
+    {
+      "bucket_id": "B12",
+      "label": "Documentation And Onboarding",
+      "summary": "Reference material, guides, and knowledge-transfer assets.",
+      "anchor_items": [
+        { "value": "readme" },
+        { "value": "onboarding-guide" }
+      ],
+      "assigned_items": [
+        { "value": "readme" },
+        { "value": "onboarding-guide" },
+        { "value": "runbook" }
+      ]
+    }
+  ],
+  "unassigned_items": [
+    { "value": "experimental-spike", "notes": "Temporary work that may not justify a stable bucket yet." },
+    { "value": "mixed-owner-task", "notes": "Cross-cutting item that spans planning, architecture, and quality." }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.1.0",
+  "artifact_type": "bucket_map",
+  "artifact_id": "english-basic-8-demo",
+  "model": "example-llm-v1",
+  "prompt_version": "v1",
+  "bucket_count": 8,
+  "source_manifest": {
+    "source_id": "english-demo-vocab",
+    "source_name": "English Demo Vocabulary",
+    "source_kind": "word_list",
+    "source_version": "demo-1"
+  },
+  "created_at": "2026-06-12T00:00:00Z",
+  "notes": "Illustrative example only. Not a normative or validated partition.",
+  "buckets": [
+    {
+      "bucket_id": "B1",
+      "label": "Action And Motion",
+      "summary": "Verbs and movement-oriented words tied to doing, changing, or going.",
+      "anchor_items": [
+        { "value": "run" },
+        { "value": "move" },
+        { "value": "build" }
+      ],
+      "assigned_items": [
+        { "value": "run" },
+        { "value": "walk" },
+        { "value": "jump" },
+        { "value": "push" },
+        { "value": "build" },
+        { "value": "carry" }
+      ]
+    },
+    {
+      "bucket_id": "B2",
+      "label": "People And Roles",
+      "summary": "Words centered on persons, identity, social roles, and relationships.",
+      "anchor_items": [
+        { "value": "person" },
+        { "value": "friend" },
+        { "value": "teacher" }
+      ],
+      "assigned_items": [
+        { "value": "person" },
+        { "value": "child" },
+        { "value": "friend" },
+        { "value": "teacher" },
+        { "value": "parent" },
+        { "value": "team" }
+      ]
+    },
+    {
+      "bucket_id": "B3",
+      "label": "Places And Environment",
+      "summary": "Locations, settings, and physical surroundings.",
+      "anchor_items": [
+        { "value": "home" },
+        { "value": "city" },
+        { "value": "room" }
+      ],
+      "assigned_items": [
+        { "value": "home" },
+        { "value": "room" },
+        { "value": "road" },
+        { "value": "city" },
+        { "value": "forest" },
+        { "value": "school" }
+      ]
+    },
+    {
+      "bucket_id": "B4",
+      "label": "Objects And Tools",
+      "summary": "Concrete things, instruments, and everyday manipulable items.",
+      "anchor_items": [
+        { "value": "book" },
+        { "value": "key" },
+        { "value": "phone" }
+      ],
+      "assigned_items": [
+        { "value": "book" },
+        { "value": "key" },
+        { "value": "phone" },
+        { "value": "table" },
+        { "value": "door" },
+        { "value": "bag" }
+      ]
+    },
+    {
+      "bucket_id": "B5",
+      "label": "Mind And Communication",
+      "summary": "Thinking, speaking, knowing, asking, and understanding.",
+      "anchor_items": [
+        { "value": "think" },
+        { "value": "say" },
+        { "value": "know" }
+      ],
+      "assigned_items": [
+        { "value": "think" },
+        { "value": "say" },
+        { "value": "know" },
+        { "value": "ask" },
+        { "value": "answer" },
+        { "value": "learn" }
+      ]
+    },
+    {
+      "bucket_id": "B6",
+      "label": "Feeling And Preference",
+      "summary": "Emotion, comfort, desire, like, dislike, and internal state language.",
+      "anchor_items": [
+        { "value": "happy" },
+        { "value": "want" },
+        { "value": "like" }
+      ],
+      "assigned_items": [
+        { "value": "happy" },
+        { "value": "sad" },
+        { "value": "want" },
+        { "value": "like" },
+        { "value": "fear" },
+        { "value": "calm" }
+      ]
+    },
+    {
+      "bucket_id": "B7",
+      "label": "Time And Sequence",
+      "summary": "Temporal relations, ordering, and change over time.",
+      "anchor_items": [
+        { "value": "now" },
+        { "value": "before" },
+        { "value": "after" }
+      ],
+      "assigned_items": [
+        { "value": "now" },
+        { "value": "before" },
+        { "value": "after" },
+        { "value": "later" },
+        { "value": "today" },
+        { "value": "again" }
+      ]
+    },
+    {
+      "bucket_id": "B8",
+      "label": "Quantity And Evaluation",
+      "summary": "Amount, comparison, degree, value judgment, and simple scoring language.",
+      "anchor_items": [
+        { "value": "more" },
+        { "value": "less" },
+        { "value": "good" }
+      ],
+      "assigned_items": [
+        { "value": "more" },
+        { "value": "less" },
+        { "value": "many" },
+        { "value": "few" },
+        { "value": "good" },
+        { "value": "bad" }
+      ]
+    }
+  ],
+  "unassigned_items": [
+    { "value": "maybe", "notes": "Could fit across uncertainty, evaluation, or communication." },
+    { "value": "signal", "notes": "May fit better in a domain-specific alphabet than a general vocabulary map." }
+  ]
+}
