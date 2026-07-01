@@ -33,6 +33,8 @@ In these settings, the alphabet may be broad, but still useful for iterative cla
 
 If a communication channel can only support a very small number of distinct states, then the bucket count should stay tied to that limit. The model's job is to make the most of that constrained alphabet, not to expand it.
 
+See `docs/11_companion_layer_for_partial_signal_decoding.md` for a worked example of this pattern using non-invasive brain-to-text decoding.
+
 ## Code, Syntax, And Error Routing
 
 Software domains are another strong candidate.

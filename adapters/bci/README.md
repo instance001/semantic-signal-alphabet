@@ -49,6 +49,8 @@ A BCI runtime system may observe which buckets are most likely active, then sear
 
 The point is not to claim perfect direct decoding. The point is to narrow a large meaning space under strict signal limits.
 
+For a worked example of this companion-layer pattern, including a citation to a concrete non-invasive brain-to-text system, see `docs/11_companion_layer_for_partial_signal_decoding.md`.
+
 ## Model-Specific Rule
 
 BCI adapters should follow the same model-specific rule as the rest of the framework.

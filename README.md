@@ -199,6 +199,7 @@ Current structure:
 - `docs/` for premise, architecture, design principles, and boundaries
 - `docs/09_generator_tool_spec.md` for the first implementation target
 - `docs/10_model_specificity_and_migration.md` for model-specific alphabet generation and model-change procedure
+- `docs/11_companion_layer_for_partial_signal_decoding.md` for the companion-layer pattern and worked example
 - `schemas/` for bucket map and source manifest formats
 - `examples/` for example generated alphabets
 - future adapter folders only after the core system is clearly documented
