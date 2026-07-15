@@ -204,6 +204,10 @@ Current structure:
 - `examples/` for example generated alphabets
 - future adapter folders only after the core system is clearly documented
 
+## Related Docs
+
+- [GLOSSARY.md](GLOSSARY.md)
+
 ## Project Status
 
 This repository is currently focused on explanation, architecture, schemas, and example artifact structure.
