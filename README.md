@@ -93,6 +93,28 @@ The system is designed to support both cases. Broad semantic continents are vali
 
 The alphabet artifact stays fixed once generated. Downstream runtime systems may still adapt how they rank, clarify, or narrow candidates while using that frozen map.
 
+```mermaid
+flowchart LR
+    source["Source set<br/>words, repos, errors, concepts"] --> budget["Bucket count<br/>application-defined bandwidth"]
+    budget --> prompt["Generation prompt<br/>coverage within a hard limit"]
+    model["Target model<br/>model-native semantic priors"] --> prompt
+    prompt --> partition["Semantic partition<br/>exactly N active buckets"]
+    partition --> buckets["Bucket map<br/>labels, summaries, anchors, assignments"]
+    partition --> unassigned["UNASSIGNED<br/>honest overflow + edge cases"]
+    buckets --> freeze["Frozen artifact<br/>model, prompt, source, bucket count"]
+    unassigned --> freeze
+    freeze --> adapters["Downstream adapters<br/>routing, compression, interpretation"]
+    freeze --> migration["Future migration<br/>new model means new map"]
+
+    classDef input fill:#eef7f2,stroke:#25624f,color:#14231d;
+    classDef process fill:#fff8ec,stroke:#9b5b2e,color:#2a1b10;
+    classDef artifact fill:#f3f0ea,stroke:#777,color:#333;
+
+    class source,budget,model input;
+    class prompt,partition,adapters,migration process;
+    class buckets,unassigned,freeze artifact;
+```
+
 If a runtime system later uses interaction logs or user history, that exposure should happen after the bucket map has been generated. The initial bucket generation step should remain tied to the target model's own native logic rather than being shaped by prior user logs.
 
 A generation prompt will generally follow this principle:
