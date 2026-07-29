@@ -133,7 +133,7 @@ At minimum, the returned content should contain:
 
 ## Output Artifact
 
-The primary output is a bucket map artifact matching [bucket_map.schema.json](C:\Users\User\Desktop\github_portal\llm-alphabet\schemas\bucket_map.schema.json).
+The primary output is a bucket map artifact matching [bucket_map.schema.json](../schemas/bucket_map.schema.json).
 
 The first tool should always produce:
 - `schema_version`

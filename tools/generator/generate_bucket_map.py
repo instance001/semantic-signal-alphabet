@@ -128,7 +128,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def load_json(path: pathlib.Path) -> Any:
-    with path.open("r", encoding="utf-8") as handle:
+    with path.open("r", encoding="utf-8-sig") as handle:
         return json.load(handle)
 
 

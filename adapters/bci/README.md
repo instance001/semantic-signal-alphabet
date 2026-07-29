@@ -77,8 +77,8 @@ Any implementation here should remain downstream of the core generator and share
 ## Included Starter Assets
 
 This adapter now includes:
-- [sources/google-10000-english.txt](C:\Users\User\Desktop\github_portal\llm-alphabet\adapters\bci\sources\google-10000-english.txt) as a practical common-English starter list
-- [sources/bci_english_google_10000.source_manifest.json](C:\Users\User\Desktop\github_portal\llm-alphabet\adapters\bci\sources\bci_english_google_10000.source_manifest.json) as a generator-ready source manifest
-- [triangulation_runtime.md](C:\Users\User\Desktop\github_portal\llm-alphabet\adapters\bci\triangulation_runtime.md) as the runtime design note
+- [sources/google-10000-english.txt](sources/google-10000-english.txt) as a practical common-English starter list
+- [sources/bci_english_google_10000.source_manifest.json](sources/bci_english_google_10000.source_manifest.json) as a generator-ready source manifest
+- [triangulation_runtime.md](triangulation_runtime.md) as the runtime design note
 
 These are starter examples only. Users should expect to edit the vocabulary, bucket count, and other inputs to match their own hardware capabilities, calibration methods, and intended communication scope.

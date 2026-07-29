@@ -65,7 +65,7 @@ Future work may include:
 
 These controls can help users decide when an alphabet is stable enough for downstream reuse.
 
-Model migration should also remain explicit. If a system changes models, it should generate a fresh model-specific alphabet first and only then apply historical runtime logs or user-pattern adaptation. See [10_model_specificity_and_migration.md](C:\Users\User\Desktop\github_portal\llm-alphabet\docs\10_model_specificity_and_migration.md).
+Model migration should also remain explicit. If a system changes models, it should generate a fresh model-specific alphabet first and only then apply historical runtime logs or user-pattern adaptation. See [10_model_specificity_and_migration.md](10_model_specificity_and_migration.md).
 
 ## Phase 5: Domain Packs And Source Manifests
 

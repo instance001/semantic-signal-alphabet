@@ -76,7 +76,7 @@ This folder is expected to hold:
 - any small helper modules needed for normalization or validation
 - usage notes specific to the generator tool
 
-The design target for the first implementation is described in [09_generator_tool_spec.md](C:\Users\User\Desktop\github_portal\llm-alphabet\docs\09_generator_tool_spec.md).
+The design target for the first implementation is described in [09_generator_tool_spec.md](../../docs/09_generator_tool_spec.md).
 
 ## Current Script
 
@@ -91,6 +91,14 @@ It supports:
 - strict bucket-count enforcement
 - schema validation before writing
 - offline normalization testing with a saved model response file
+
+## Setup
+
+Install the generator dependency before running the script from a fresh checkout:
+
+```text
+python -m pip install -r tools/generator/requirements.txt
+```
 
 ## Example Usage
 
