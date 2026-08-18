@@ -6,6 +6,8 @@ Instead of forcing the model to inherit a human-authored taxonomy, the system gi
 
 This is what we mean by model-native sorting.
 
+The term describes a generated artifact and workflow boundary: the target model produces the bucket map under a fixed constraint, and that map is then saved with model metadata. It is not a claim of direct access to the model's internal cognition or a claim that the model has produced the one true ontology of the source domain.
+
 The model is responsible for the semantic arrangement of the buckets, not for deciding how many buckets the application can support. The application defines that bucket count first.
 
 ## Human Taxonomies vs Model-Native Buckets

@@ -52,7 +52,7 @@ It is a model-specific working artifact.
 
 
 
-A different model, domain, dataset, bucket count, or application may produce a different useful map. That is expected. The value is not in forcing every system into one shared schema. The value is in letting a model expose a practical semantic compression layer that can be inspected, frozen, adapted, migrated, or discarded.
+A different model, domain, dataset, bucket count, or application may produce a different useful map. That is expected. The value is not in forcing every system into one shared schema. The value is in letting a model produce a practical semantic compression layer that can be inspected, frozen, adapted, migrated, or discarded.
 
 
 
