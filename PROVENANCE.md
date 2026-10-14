@@ -32,3 +32,7 @@ GitHub API licence field at inventory time: `AGPL-3.0`. This is a metadata obser
 ## Evidence and limitations
 
 Evidence: authenticated GitHub API metadata captured by the FMI provenance audit. Contribution, prior art, ownership, contributors, document licensing, relationships, releases, and publication status require human verification.
+
+## Evidence-led lineage position
+
+The README documents `SPECIFIED` framework and generator artifacts for a fixed-budget, model-specific semantic bucket map. The narrow contribution is the recorded process/artifact convention, not a claim to own semantic compression, taxonomies, classification, or a universal correct partition. LLM-Defined Persistent Memory explicitly identifies this repository as an input.
